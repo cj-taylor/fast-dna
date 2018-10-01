@@ -1,8 +1,10 @@
 import * as React from "react";
 import {
     Checkbox as BaseCheckbox,
+    CheckboxProps,
     ICheckboxClassNameContract,
     ICheckboxHandledProps,
+    ICheckboxManagedClasses,
     ICheckboxUnhandledProps,
     IFoundationProps
 } from "@microsoft/fast-components-react-base";
@@ -17,4 +19,10 @@ import { CheckboxStyles, IDesignSystem } from "@microsoft/fast-components-styles
 const Checkbox = manageJss(CheckboxStyles)(BaseCheckbox);
 type Checkbox = InstanceType<typeof Checkbox>;
 
+export {
+    CheckboxProps,
+    ICheckboxHandledProps,
+    ICheckboxUnhandledProps,
+    ICheckboxManagedClasses
+};
 export { Checkbox };

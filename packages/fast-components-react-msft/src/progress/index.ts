@@ -7,10 +7,10 @@ import {
     IProgressClassNameContract
 } from "@microsoft/fast-components-react-base";
 import MSFTProgress, {
-    IMSFTProgressHandledProps,
-    IMSFTProgressManagedClasses,
-    IMSFTProgressUnhandledProps,
-    MSFTProgressProps
+    IProgressHandledProps,
+    IProgressManagedClasses,
+    IProgressUnhandledProps,
+    ProgressProps
 } from "./progress";
 
 /*
